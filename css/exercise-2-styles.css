@@ -1,0 +1,43 @@
+body {
+    background-color: #f0ffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Apply this style to all h1 tags */
+h1 {
+    color: #cc0606;
+    text-align: center;
+    border: 3px solid green;
+    font-size: 3em;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 5%;
+}
+
+/*Apply this style to one element that has a class name my-special-text */
+#my-special-text {
+    color: #5919cc;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/*Apply this style to element(s) that have a class name red-text */
+.red-text  {
+    color: red;
+}
+
+/*Apply this style to p tag(s) if they are immediate children of a div tag */
+div > p {
+    color: #f804d7;
+}
+
+/*Apply this style to h4 tag(s) if h3 is followed by h4 */
+h3 + h4 {
+    color: #b7b700;
+}
+
+/*Apply this style to (a) tag if the user hovers this (a) tag/link */
+a:hover {
+    color: red;
+}
